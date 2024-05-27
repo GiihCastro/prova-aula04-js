@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Caracol</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1>Calculadora Caracol</h1>
+    <img src="./arquivos/fibonacci-spiral-graphic-980xnf6vmcsgx6v6.png">
+    <p class="descricao">A calculadora que permite que você calcule o fatorial de um número inteiro positivo e a sequência de Fibonacci até número mais próximo do número inserido! Isso pode ajudar na análise de decisões financeiras e outros cálculos matemáticos importantes.</p>
+    <form id="calculo-form">
+        <label for="numero">Insira um número inteiro positivo:</label>
+        <input type="number" id="numero" name="numero" min="0" required>
+        <button type="submit">Calcular</button>
+    </form>
+    <div id="resultados">
+        <p id="resultado-fatorial"></p>
+        <p id="resultado-fibonacci"></p>
+    </div>
+
+    <script src="index.js" defer></script>
+</body>
+</html>
